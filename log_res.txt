@@ -1,0 +1,24 @@
+Request: method=post url=https://api.telegram.org/bot6500937080:{TOKEN}/setMyCommands params={'commands': '[{"command": "start", "description": "\\u0417\\u0430\\u043f\\u0443\\u0441\\u043a \\u0431\\u043e\\u0442\\u0430"}]'} files=None
+The server returned: 'b'{"ok":true,"result":true}''
+Request: method=get url=https://api.telegram.org/bot6500937080:{TOKEN}/getMe params=None files=None
+The server returned: 'b'{"ok":true,"result":{"id":6500937080,"is_bot":true,"first_name":"GTR_BOT","username":"GTR212_bot","can_join_groups":true,"can_read_all_group_messages":false,"supports_inline_queries":false}}''
+Starting your bot with username: [@GTR212_bot]
+Started polling.
+Received task
+Request: method=get url=https://api.telegram.org/bot6500937080:{TOKEN}/getUpdates params={'offset': -1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+The server returned: 'b'{"ok":true,"result":[{"update_id":873862829,\n"message":{"message_id":3,"from":{"id":1029045407,"is_bot":false,"first_name":"Pr@ctic","username":"Practic_old","language_code":"en"},"chat":{"id":1029045407,"first_name":"Pr@ctic","username":"Practic_old","type":"private"},"date":1693369098,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}]}''
+Skipped all pending messages
+Request: method=get url=https://api.telegram.org/bot6500937080:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+The server returned: 'b'{"ok":true,"result":[{"update_id":873862829,\n"message":{"message_id":3,"from":{"id":1029045407,"is_bot":false,"first_name":"Pr@ctic","username":"Practic_old","language_code":"en"},"chat":{"id":1029045407,"first_name":"Pr@ctic","username":"Practic_old","type":"private"},"date":1693369098,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}]}''
+Received 1 new updates
+Task complete
+Received task
+Received task
+Request: method=post url=https://api.telegram.org/bot6500937080:{TOKEN}/sendMessage params={'chat_id': '1029045407', 'text': '\n    Бот использоуется как шаблон\n    ', 'reply_markup': '{"inline_keyboard": [[{"text": "\\u041f\\u043e\\u0433\\u043d\\u0430\\u043b\\u0438 \\u0434\\u0430\\u043b\\u044c\\u0448\\u0435?", "callback_data": "next"}]]}', 'parse_mode': 'HTML'} files=None
+Request: method=get url=https://api.telegram.org/bot6500937080:{TOKEN}/getUpdates params={'offset': 873862830, 'timeout': 20, 'long_polling_timeout': 20} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":4,"from":{"id":6500937080,"is_bot":true,"first_name":"GTR_BOT","username":"GTR212_bot"},"chat":{"id":1029045407,"first_name":"Pr@ctic","username":"Practic_old","type":"private"},"date":1693369099,"text":"\\u0411\\u043e\\u0442 \\u0438\\u0441\\u043f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0443\\u0435\\u0442\\u0441\\u044f \\u043a\\u0430\\u043a \\u0448\\u0430\\u0431\\u043b\\u043e\\u043d","reply_markup":{"inline_keyboard":[[{"text":"\\u041f\\u043e\\u0433\\u043d\\u0430\\u043b\\u0438 \\u0434\\u0430\\u043b\\u044c\\u0448\\u0435?","callback_data":"next"}]]}}}''
+Task complete
+KeyboardInterrupt received.
+Stopped polling.
+Infinity polling: polling exited
+Break infinity polling
